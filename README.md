@@ -9,6 +9,7 @@ Criar um sistema bancário com as operações: sacar, depositar e visualizar ext
 
 ## 📝DESCRIÇÃO 
 Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e estrato.
+Arquivo: Desafio_1.py
 
 ### 🟥OPERAÇÃO DE DEPÓSITO 
 Deve ser possível depositar valores positivos para a minha conta bancária. A versão 1 do projeto trabalha apenas com 1 usuário, dessa forma não precisamos nos preocupar em identificar qual é o número da agência e conta bancária. Todos os depósitos devem ser armazenados em uma variável e exibidos na operação de extrato.
@@ -37,6 +38,7 @@ Exemplo: 1500.45 = R$ 1500.45
   - O valor é somado ao saldo normalmente, mas o extrato registra o tipo de depósito (ex: “Depósito em dinheiro: R$ 100.00” ou “Depósito em cheque: R$ 150.00”)
 
 ## 🆕NOVAS OPERAÇÕES ADICIONADAS 
+Você pode encontrar essa alterações no arquivo: desafio_e_data_e_hora.py
 
 ### 🟩 CADASTRO DE NOVA CONTA
 Permite o cadastro de um novo cliente no sistema bancário. São solicitadas informações como CPF, nome completo, data de nascimento e endereço, com validações para garantir a consistência dos dados. Cada conta é associada a um CPF único e armazenada em um dicionário de contas.
