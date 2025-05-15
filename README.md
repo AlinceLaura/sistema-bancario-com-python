@@ -35,3 +35,10 @@ Exemplo: 1500.45 = R$ 1500.45
 3️⃣Opção de depósito em dinheiro ou cheque:
   - Dentro da operação de depósito, incluímos uma pergunta ao usuário para escolher entre depósito em dinheiro ou cheque
   - O valor é somado ao saldo normalmente, mas o extrato registra o tipo de depósito (ex: “Depósito em dinheiro: R$ 100.00” ou “Depósito em cheque: R$ 150.00”)
+
+## ➕ATUALIZAÇÕES DO DESAFIO 
+Na atualização tive a oprotunidade de otimizar o Sistema Bancário previamente desenvolvido com o uso de funções Python. O objetivo foi aprimorar a estrutura e a eficiência do sistema, implementando as operações de depósito, saque e extrato em funções específicas. Tive a chance de refatorar o código existente, dividindo-o em funções reutilizavéis, facilitando a manutenção e o entendimento do sistema como um todo.
+Foi integrado ao Sistema bancário três novas funções:
+- Criar Usuário: permite a criação de usuários através do número do cpf
+- Criar Conta: Permite a criação de conta para o usuário cadastrado. Um usuário pode ter mais de uma conta
+- Listar Contas: Lista as contas criadas 
