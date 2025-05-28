@@ -1,5 +1,6 @@
 
 # DESAFIO 1 - Criando um Sistema Bancário com Python
+# 👩🏽‍💻Modulando em POO (Programação Orientada a Objetos)👩🏽‍💻
 ![Dio](https://www.dio.me/) Bootcamp Suzano Python - Developer 
 
 
@@ -21,7 +22,15 @@ Essa operação deve listar todos os depósitos e saques realizados na conta. No
 Os valores devem ser exibidos utilizando o formato R$ xxx.xx,
 Exemplo: 1500.45 = R$ 1500.45 
 
-## ⚠️Resumo das alterações no código do sistema bancário
+## ⚠️Resumo das alterações no código do sistema bancário feitos com POO
+
+### 🎯OBJETIVO
+Iniciar a modelagem do sistema bancário em POO. Adicionar classes para cliente e as operações bancárias: depósito e saque 
+
+### ⚙️DESAFIO⚙️
+AtualizaR a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classe UML a seguir:
+https://github.com/AlinceLaura/sistema-bancario-com-python/issues/2#issue-3097511153
+
 
 1️⃣Correção da variável extrato:
   - A variável extrato foi inicialmente definida como " " (com espaço), o que impedia a exibição correta da mensagem "Não foram realizadas movimentações"
