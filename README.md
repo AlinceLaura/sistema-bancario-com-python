@@ -3,10 +3,8 @@
 # 👩🏽‍💻Modulando em POO (Programação Orientada a Objetos)👩🏽‍💻
 ![Dio](https://www.dio.me/) Bootcamp Suzano Python - Developer 
 
-
 ## 🎯OBJETIVO GERAL 
 Criar um sistema bancário com as operações: sacar, depositar e visualizar extrato.
-
 
 ## 📝DESCRIÇÃO 
 Fomos contratados por um grande banco para desenvolver o seu novo sistema. Esse banco deseja modernizar suas operações e para isso escolheu a linguagem Python. Para a primeira versão do sistema devemos implementar apenas 3 operações: depósito, saque e estrato.
@@ -22,15 +20,7 @@ Essa operação deve listar todos os depósitos e saques realizados na conta. No
 Os valores devem ser exibidos utilizando o formato R$ xxx.xx,
 Exemplo: 1500.45 = R$ 1500.45 
 
-## ⚠️Resumo das alterações no código do sistema bancário feitos com POO
-
-### 🎯OBJETIVO
-Iniciar a modelagem do sistema bancário em POO. Adicionar classes para cliente e as operações bancárias: depósito e saque 
-
-### ⚙️DESAFIO⚙️
-AtualizaR a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classe UML a seguir:
-https://github.com/AlinceLaura/sistema-bancario-com-python/issues/2#issue-3097511153
-
+## ⚠️Resumo das alterações no código do sistema bancário
 
 1️⃣Correção da variável extrato:
   - A variável extrato foi inicialmente definida como " " (com espaço), o que impedia a exibição correta da mensagem "Não foram realizadas movimentações"
@@ -44,3 +34,26 @@ https://github.com/AlinceLaura/sistema-bancario-com-python/issues/2#issue-309751
 3️⃣Opção de depósito em dinheiro ou cheque:
   - Dentro da operação de depósito, incluímos uma pergunta ao usuário para escolher entre depósito em dinheiro ou cheque
   - O valor é somado ao saldo normalmente, mas o extrato registra o tipo de depósito (ex: “Depósito em dinheiro: R$ 100.00” ou “Depósito em cheque: R$ 150.00”)
+
+## ➕ATUALIZAÇÕES DO DESAFIO 
+Na atualização tive a oprotunidade de otimizar o Sistema Bancário previamente desenvolvido com o uso de funções Python. O objetivo foi aprimorar a estrutura e a eficiência do sistema, implementando as operações de depósito, saque e extrato em funções específicas. Tive a chance de refatorar o código existente, dividindo-o em funções reutilizavéis, facilitando a manutenção e o entendimento do sistema como um todo.
+Foi integrado ao Sistema bancário três novas funções:
+- Criar Usuário: permite a criação de usuários através do número do cpf
+- Criar Conta: Permite a criação de conta para o usuário cadastrado. Um usuário pode ter mais de uma conta
+- Listar Contas: Lista as contas criadas 
+
+## ⚠️Resumo das alterações no código do sistema bancário feitos com POO
+
+### 🎯OBJETIVO
+Iniciar a modelagem do sistema bancário em POO. Adicionar classes para cliente e as operações bancárias: depósito e saque 
+
+### ⚙️DESAFIO⚙️
+AtualizaR a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classe UML a seguir:
+
+<div align="center"> 
+< img src="https://github.com/AlinceLaura/sistema-bancario-com-python/issues/2#issue-3097511153 />
+  </div>
+
+### ➕DESAFIO EXTRA➕
+Após concluir a modelagem das classes e a criação dos métodos. Atualizar os métodos que tratam as opções do menu, para funcionar com as classes modeladas 
+
